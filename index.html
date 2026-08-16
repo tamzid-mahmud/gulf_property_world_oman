@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Gulf Property World — Muscat's trusted real estate agency. Premium residential, commercial, and investment properties. 4.5★ Rated."/>
+  <title>Gulf Property World | Real Estate Oman</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<div id="preloader">
+  <div class="preloader-circle"></div>
+  <div class="preloader-text">GULF PROPERTY</div>
+</div>
+
+<nav>
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo">GULF <span>PROPERTY</span></a>
+    <ul class="nav-menu">
+      <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Listings</a>
+        <div class="dropdown">
+          <a href="listings.html?type=buy">🔑 Homes for Sale</a>
+          <a href="listings.html?type=rent">📋 Rentals</a>
+          <a href="listings.html?type=new">✨ New Listings</a>
+          <a href="listings.html">All Properties</a>
+        </div>
+      </li>
+      <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+      <li class="nav-item"><a href="neighborhoods.html" class="nav-link">Neighborhoods</a></li>
+      <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+      <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="btn nav-cta">Get Valuation</a>
+    <button class="hamburger"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <div class="hero-text reveal-up">
+      <h1>Your Home. <em>Your Story.</em> Our Mission.</h1>
+      <p>For over 15 years, Gulf Property World has helped families and investors find their perfect property in Oman. Local expertise. Personal service. Exceptional results.</p>
+      <div class="hero-cta">
+        <a href="listings.html" class="btn btn-primary">Browse Listings →</a>
+        <a href="contact.html" class="btn btn-secondary">Free Valuation</a>
+      </div>
+      <div id="openStatus"></div>
+    </div>
+    <img src="images/Modern property in Muscat.jpg" alt="Modern property in Muscat" class="hero-image reveal-scale"/>
+  </div>
+</section>
+
+<section class="section" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 3rem; text-align: center; border-top: 2px solid var(--border); border-bottom: 2px solid var(--border); padding: 4rem 2rem;">
+  <div class="stat-box reveal-fade">
+    <div class="stat-number">15+</div>
+    <div class="stat-label">Years Excellence</div>
+  </div>
+  <div class="stat-box reveal-fade">
+    <div class="stat-number">500+</div>
+    <div class="stat-label">Properties Sold</div>
+  </div>
+  <div class="stat-box reveal-fade">
+    <div class="stat-number">98%</div>
+    <div class="stat-label">Client Satisfaction</div>
+  </div>
+  <div class="stat-box reveal-fade">
+    <div class="stat-number">$2B+</div>
+    <div class="stat-label">In Transactions</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-header">
+    <h2>Featured <em>Listings.</em></h2>
+    <p>Hand-picked premium properties across Muscat</p>
+  </div>
+  <div class="grid-3">
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=500&h=300&q=85" alt="Luxury villa" class="card-image"/>
+      <div class="card-badge">For Sale</div>
+      <div class="card-heart">♡</div>
+      <div class="card-content">
+        <h3>4 Bed Luxury Villa</h3>
+        <div class="property-price">O.R. 150,000</div>
+        <p>Modern villa with pool, garden, stunning views.</p>
+        <div class="property-details">
+          <div class="detail-item"><strong>4</strong> Beds</div>
+          <div class="detail-item"><strong>3</strong> Baths</div>
+          <div class="detail-item"><strong>3,200</strong> sqft</div>
+        </div>
+        <a href="contact.html" class="btn btn-primary" style="display: inline-block; margin-top: 1.5rem; width: auto;">Inquire</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/Luxury Apartment.png" alt="Luxury apartment" class="card-image"/>
+      <div class="card-badge">New</div>
+      <div class="card-heart">♡</div>
+      <div class="card-content">
+        <h3>3 Bed Penthouse</h3>
+        <div class="property-price">O.R. 200,000</div>
+        <p>Spectacular city views, premium finishes, exclusive.</p>
+        <div class="property-details">
+          <div class="detail-item"><strong>3</strong> Beds</div>
+          <div class="detail-item"><strong>3.5</strong> Baths</div>
+          <div class="detail-item"><strong>2,800</strong> sqft</div>
+        </div>
+        <a href="contact.html" class="btn btn-primary" style="display: inline-block; margin-top: 1.5rem; width: auto;">Inquire</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=500&h=300&q=85" alt="Family home" class="card-image"/>
+      <div class="card-badge">For Sale</div>
+      <div class="card-heart">♡</div>
+      <div class="card-content">
+        <h3>3 Bed Townhouse</h3>
+        <div class="property-price">O.R. 125,000</div>
+        <p>Modern style, garden, parking. Family-friendly.</p>
+        <div class="property-details">
+          <div class="detail-item"><strong>3</strong> Beds</div>
+          <div class="detail-item"><strong>2</strong> Baths</div>
+          <div class="detail-item"><strong>2,100</strong> sqft</div>
+        </div>
+        <a href="contact.html" class="btn btn-primary" style="display: inline-block; margin-top: 1.5rem; width: auto;">Inquire</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=500&h=300&q=85" alt="Modern apartment" class="card-image"/>
+      <div class="card-badge">For Rent</div>
+      <div class="card-heart">♡</div>
+      <div class="card-content">
+        <h3>2 Bed Apartment</h3>
+        <div class="property-price">O.R. 1,200/month</div>
+        <p>Stylish, central location, modern finishes.</p>
+        <div class="property-details">
+          <div class="detail-item"><strong>2</strong> Beds</div>
+          <div class="detail-item"><strong>2</strong> Baths</div>
+          <div class="detail-item"><strong>1,400</strong> sqft</div>
+        </div>
+        <a href="contact.html" class="btn btn-primary" style="display: inline-block; margin-top: 1.5rem; width: auto;">Inquire</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="images/Commercial Office.jpg" alt="Commercial office" class="card-image"/>
+      <div class="card-badge">For Rent</div>
+      <div class="card-heart">♡</div>
+      <div class="card-content">
+        <h3>Premium Office Space</h3>
+        <div class="property-price">O.R. 40,000/year</div>
+        <p>Business district, fully furnished, parking.</p>
+        <div class="property-details">
+          <div class="detail-item"><strong>Open</strong> Plan</div>
+          <div class="detail-item"><strong>2</strong> Baths</div>
+          <div class="detail-item"><strong>1,800</strong> sqft</div>
+        </div>
+        <a href="contact.html" class="btn btn-primary" style="display: inline-block; margin-top: 1.5rem; width: auto;">Inquire</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=500&h=300&q=85" alt="Investment property" class="card-image"/>
+      <div class="card-badge">New</div>
+      <div class="card-heart">♡</div>
+      <div class="card-content">
+        <h3>Investment Villa</h3>
+        <div class="property-price">O.R. 180,000</div>
+        <p>High ROI potential, great rental market.</p>
+        <div class="property-details">
+          <div class="detail-item"><strong>4</strong> Beds</div>
+          <div class="detail-item"><strong>3</strong> Baths</div>
+          <div class="detail-item"><strong>2,900</strong> sqft</div>
+        </div>
+        <a href="contact.html" class="btn btn-primary" style="display: inline-block; margin-top: 1.5rem; width: auto;">Inquire</a>
+      </div>
+    </div>
+  </div>
+  <div style="text-align: center; margin-top: 4rem;">
+    <a href="listings.html" class="btn btn-secondary">View All Listings →</a>
+  </div>
+</section>
+
+<section class="section" style="background: var(--light-bg);">
+  <div class="section-header">
+    <h2>Explore <em>Neighborhoods.</em></h2>
+    <p>Discover the best areas to live in Muscat</p>
+  </div>
+  <div class="grid-4">
+    <div class="card reveal-scale">
+      <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=500&h=300&q=85" alt="Downtown Muscat" class="card-image"/>
+      <div class="card-content">
+        <h3>Downtown</h3>
+        <p style="margin: 1rem 0; font-size: 1.1rem; color: var(--accent); font-weight: 700;">24 Properties</p>
+        <p>Urban living at its finest.</p>
+        <a href="neighborhoods.html#downtown" class="btn btn-secondary" style="display: inline-block; margin-top: 1rem; width: auto;">Explore</a>
+      </div>
+    </div>
+
+    <div class="card reveal-scale">
+      <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=500&h=300&q=85" alt="Qurum" class="card-image"/>
+      <div class="card-content">
+        <h3>Qurum</h3>
+        <p style="margin: 1rem 0; font-size: 1.1rem; color: var(--accent); font-weight: 700;">28 Properties</p>
+        <p>Prestigious & walkable.</p>
+        <a href="neighborhoods.html#qurum" class="btn btn-secondary" style="display: inline-block; margin-top: 1rem; width: auto;">Explore</a>
+      </div>
+    </div>
+
+    <div class="card reveal-scale">
+      <img src="https://images.unsplash.com/photo-1449844908441-8829872d2607?w=500&h=300&q=85" alt="Shatti Al Qurum" class="card-image"/>
+      <div class="card-content">
+        <h3>Shatti Al Qurum</h3>
+        <p style="margin: 1rem 0; font-size: 1.1rem; color: var(--accent); font-weight: 700;">35 Properties</p>
+        <p>Beachfront & modern.</p>
+        <a href="neighborhoods.html#shatti" class="btn btn-secondary" style="display: inline-block; margin-top: 1rem; width: auto;">Explore</a>
+      </div>
+    </div>
+
+    <div class="card reveal-scale">
+      <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=500&h=300&q=85" alt="Al Khuwair" class="card-image"/>
+      <div class="card-content">
+        <h3>Al Khuwair</h3>
+        <p style="margin: 1rem 0; font-size: 1.1rem; color: var(--accent); font-weight: 700;">22 Properties</p>
+        <p>Family-friendly suburbs.</p>
+        <a href="neighborhoods.html#alkhuwair" class="btn btn-secondary" style="display: inline-block; margin-top: 1rem; width: auto;">Explore</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-header">
+    <h2>Why Gulf <em>Property World.</em></h2>
+    <p>15 years of trust in Muscat</p>
+  </div>
+  <div class="grid-3">
+    <div class="card">
+      <span class="card-icon">🏆</span>
+      <div class="card-content">
+        <h3>Local Market Expertise</h3>
+        <p>15 years in Muscat gives us unmatched neighborhood knowledge national chains cannot offer.</p>
+      </div>
+    </div>
+    <div class="card">
+      <span class="card-icon">🤝</span>
+      <div class="card-content">
+        <h3>Personal Relationships</h3>
+        <p>We treat every client as family, empowering you with knowledge to reach your goals.</p>
+      </div>
+    </div>
+    <div class="card">
+      <span class="card-icon">📊</span>
+      <div class="card-content">
+        <h3>Data-Driven Strategy</h3>
+        <p>Every recommendation backed by real market data and proven strategies.</p>
+      </div>
+    </div>
+    <div class="card">
+      <span class="card-icon">⚡</span>
+      <div class="card-content">
+        <h3>Full-Service Brokerage</h3>
+        <p>Buying, selling, renting, or investing — we handle every aspect under one roof.</p>
+      </div>
+    </div>
+    <div class="card">
+      <span class="card-icon">🛡️</span>
+      <div class="card-content">
+        <h3>Legal & Compliance</h3>
+        <p>Every transaction handled with full compliance, giving you total peace of mind.</p>
+      </div>
+    </div>
+    <div class="card">
+      <span class="card-icon">🌟</span>
+      <div class="card-content">
+        <h3>Community Rooted</h3>
+        <p>We live and work in Muscat. This isn't just business — it's our community.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background: var(--light-bg);">
+  <div class="section-header">
+    <h2>What Our Clients <em>Say About Us.</em></h2>
+    <p>4.5★ Rated</p>
+  </div>
+  <div class="grid-2">
+    <div class="testi-card reveal-scale">
+      <div class="rating">★★★★★</div>
+      <p class="testi-text">"They made buying our first home seamless. The team knew every neighborhood inside out and found us something beyond what we thought was possible in our budget."</p>
+      <div class="testi-author-box">
+        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=50&q=80" alt="Maria G." class="testi-avatar"/>
+        <div>
+          <div class="testi-author">Maria G.</div>
+          <div class="testi-title">First-Time Buyer</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testi-card reveal-scale">
+      <div class="rating">★★★★★</div>
+      <p class="testi-text">"Listed after a disappointing experience elsewhere. Within two weeks we had multiple offers and sold above asking price. The difference was night and day."</p>
+      <div class="testi-author-box">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=50&q=80" alt="David R." class="testi-avatar"/>
+        <div>
+          <div class="testi-author">David R.</div>
+          <div class="testi-title">Home Seller</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testi-card reveal-scale">
+      <div class="rating">★★★★★</div>
+      <p class="testi-text">"As an investor, I needed an agent who truly understands numbers and market cycles. They helped me acquire three properties and the portfolio performed exceptionally."</p>
+      <div class="testi-author-box">
+        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=50&q=80" alt="James T." class="testi-avatar"/>
+        <div>
+          <div class="testi-author">James T.</div>
+          <div class="testi-title">Property Investor</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testi-card reveal-scale">
+      <div class="rating">★★★★★</div>
+      <p class="testi-text">"Professional from start to finish. Transparent pricing, expert advice, and genuine interest in finding exactly what I wanted. They earned my complete trust."</p>
+      <div class="testi-author-box">
+        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=50&q=80" alt="Fatima A." class="testi-avatar"/>
+        <div>
+          <div class="testi-author">Fatima A.</div>
+          <div class="testi-title">Apartment Buyer</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="text-align: center;">
+  <div class="reveal-up">
+    <h2 style="margin-bottom: 2rem;">Ready to Find Your <em>Dream Home?</em></h2>
+    <p style="margin-bottom: 3rem; color: var(--text-light); font-size: 1.05rem; max-width: 600px; margin-left: auto; margin-right: auto;">Whether you're buying, selling or just exploring — our team is here to guide you.</p>
+    <div class="hero-cta" style="justify-content: center;">
+      <a href="contact.html" class="btn btn-primary">Get a Free Valuation</a>
+      <a href="tel:+96899445520" class="btn btn-secondary">☎ +968 9944 5520</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-content">
+    <div class="footer-section">
+      <h4>GULF PROPERTY WORLD</h4>
+      <p>Muscat's trusted real estate brokerage since 2009. Premium residential, commercial, and investment properties.</p>
+    </div>
+    <div class="footer-section">
+      <h4>Navigate</h4>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="listings.html">Listings</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="neighborhoods.html">Neighborhoods</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h4>Services</h4>
+      <ul class="footer-links">
+        <li><a href="services.html#buy">Buying a Home</a></li>
+        <li><a href="services.html#sell">Selling Your Home</a></li>
+        <li><a href="services.html#rent">Rentals</a></li>
+        <li><a href="services.html#invest">Investments</a></li>
+        <li><a href="services.html#valuation">Free Valuation</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h4>Contact</h4>
+      <p><strong>☎</strong> <a href="tel:+96899445520" style="color: var(--accent); text-decoration: none;">+968 9944 5520</a></p>
+      <p><strong>📍</strong> Jawharat Al Shatti Mall, Muscat</p>
+      <p><strong>🕐</strong> Daily 9 AM - 8 PM</p>
+      <p style="margin-top: 1rem;"><a href="https://wa.me/96899445520" style="color: var(--accent); text-decoration: none;" target="_blank">💬 WhatsApp</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Gulf Property World Oman. Licensed & Compliant. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
